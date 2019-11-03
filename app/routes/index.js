@@ -78,5 +78,3 @@ module.exports = function(app, db) {
       });
   });
 };
-
-//assumptions all employees are paid monthly
