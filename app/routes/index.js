@@ -32,7 +32,7 @@ module.exports = function(app, db) {
 
     for (var key in paymentDetails) {
       if (!paymentDetails[key]) {
-        res.send({ error: 'Some values are missing' });
+        res.send({ error: 'Values are incorrect or missing' });
         return;
       }
     }
